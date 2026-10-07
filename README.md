@@ -607,9 +607,12 @@ FreeCAD                          Blender
 
 Standalone tools for converting CAD files for import into Blender.
 
+CADProps converts STEP/STP geometry to STL meshes through server processing; it does not preserve parametric features.
+
 | Tool | Platform | Supported Input | Supported Output | License |
 |---|---|---|---|---|
 | **CAD Exchanger** | Windows, macOS, Linux | 30+ CAD formats (STEP, IGES, CATIA, SolidWorks, JT, Parasolid, IFC, DWG) | OBJ, STL, glTF, STEP | Commercial (free viewer) |
+| [**CADProps**](https://www.cadprops.com/tools/step-to-stl/) | Browser (sign-in required) | STEP, STP | STL meshes for Blender import | Commercial / proprietary |
 | **SimLab CAD Composer** | Windows, macOS | DWG, DXF, 3D PDF, DWF | FBX, OBJ, glTF | Commercial |
 | **Mayo** | Windows | STEP, IGES | glTF, OBJ | GPL-3.0 |
 | **Gltf-Pipeline** | Windows, macOS, Linux | glTF | OBJ, STL | MIT |
